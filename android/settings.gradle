@@ -1,0 +1,5 @@
+rootProject.name = 'ws'
+include ':react-native-websocket-server'
+project(':react-native-websocket-server').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-websocket-server/android/app')
+
+include ':app'
